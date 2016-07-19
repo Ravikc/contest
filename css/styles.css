@@ -1,0 +1,75 @@
+body { 
+   overflow-x: hidden;      /*to stop horizontal scroll*/   
+}
+
+#navbar{      
+    z-index: 1;
+    background-color: gray;
+    opacity: 0.75; 
+    border-radius: 0px;  
+    border: none;       
+}
+
+
+#navbar li a {
+    color: white;   
+    font-size: 0.85em; 
+}
+
+.navbar-header img{
+    height: 60px;
+    widows: 60px;
+}
+
+#carousel-example-generic{
+    position: absolute;
+    top: 0px;         
+}
+
+#carousel-example-generic img{
+   min-height: 300px;
+}
+
+#banner{                /* don't merge this and next selectors this is required*/
+    z-index: 1;
+}
+#banner > div{ 
+    color: white;  
+    margin-right: 20px;   
+    height: 400px;    
+    background: url('../images/nav-wrapper.png') no-repeat;   
+}
+
+#banner hr{
+    border-top: 1px dashed palegoldenrod;
+    margin: 5px 0;
+}
+#banner > div > div i{
+    font-size: 1.5em;    
+    padding: 0 8%;        
+}
+#banner > div > div > p{
+    margin: 0 auto;
+}
+.links{
+   padding-left: 10%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 931px){               /*fixing navbar links collapsing*/
+
+    #navbar li a{
+        padding-left: 8px;
+        padding-right: 8px;
+        font-size: 0.8em;
+    }
+    
+}
+
