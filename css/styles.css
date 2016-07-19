@@ -27,7 +27,7 @@ body {
 }
 
 #carousel-example-generic img{
-   min-height: 300px;
+   min-height: 460px;
 }
 
 #banner{                /* don't merge this and next selectors this is required*/
@@ -36,7 +36,7 @@ body {
 #banner > div{ 
     color: white;  
     margin-right: 20px;   
-    height: 400px;    
+    height: 460px;    
     background: url('../images/nav-wrapper.png') no-repeat;   
 }
 
@@ -54,6 +54,15 @@ body {
 .links{
    padding-left: 10%;
     margin: 0 auto;
+}
+#banner img {
+    max-height: 90px;
+}
+#banner figcaption{
+    line-height: 0.8em;
+}
+.about {
+    color: black;
 }
 
 
