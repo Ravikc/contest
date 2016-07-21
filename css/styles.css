@@ -120,16 +120,37 @@ section .highlight a button{
 .tag-small{   
     background-image: url('../images/thumbnail-bg-title.png');
     background-repeat: no-repeat;
-    background-size: 100% 108%; 
+    background-size: 100% 108%;     
     margin: auto 15px;      
     position: absolute;
     top: 0px;
     left: 0px;
     right: 0px;     
 }
+#menu > div > div:nth-child(3){
+    background-color: white;
+}
+
+.sounds-good a{
+   opacity: 0;
+   color: green;
+   font-size: 1.1em;
+}
+#menu > div:hover .sounds-good a{
+    opacity: 1;
+}
+
+
 .tag-small-images img{
     width: 100%;
     height: 150px;;    
+}
+section hr {
+    border-top: 1px dashed brown;
+}
+
+#events > div > div{
+    background-color: skyblue;
 }
 
 
@@ -159,9 +180,5 @@ section .highlight a button{
         width: 100%;
     }
 
-    #menu > div{
-        max-width: 500px;
-        margin: 0 auto; 
-   
-    }
+    
 }
