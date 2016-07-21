@@ -2,13 +2,22 @@ body {
    overflow-x: hidden;      /*to stop horizontal scroll*/   
 }
 
+#top{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px; 
+}
+
 #navbar{      
     z-index: 1;
     background-color: gray;
     opacity: 0.75; 
     border-radius: 0px;  
-    border: none;       
+    border: none; 
+        
 }
+
 
 
 #navbar li a {
@@ -18,13 +27,10 @@ body {
 
 .navbar-header img{
     height: 60px;
-    widows: 60px;
+    width: 60px;
 }
 
-#carousel-example-generic{
-    position: absolute;
-    top: 0px;         
-}
+
 
 #carousel-example-generic img{
    min-height: 460px;
@@ -32,11 +38,12 @@ body {
 
 #banner{                /* don't merge this and next selectors this is required*/
     z-index: 1;
+   
 }
 #banner > div{ 
     color: white;  
     margin-right: 20px;   
-    height: 460px;    
+    height: 457px;    
     background: url('../images/nav-wrapper.png') no-repeat;   
 }
 
@@ -46,7 +53,8 @@ body {
 }
 #banner > div > div i{
     font-size: 1.5em;    
-    padding: 0 8%;        
+    padding: 0 8%; 
+    color: white;       
 }
 #banner > div > div > p{
     margin: 0 auto;
@@ -61,9 +69,43 @@ body {
 #banner figcaption{
     line-height: 0.8em;
 }
+
 .about {
     color: black;
 }
+
+section{
+    background-color: beige;       
+}
+
+.heading{
+    margin:1% auto 2% auto;
+    font-size: 1.8em;   
+}
+
+.highlight{
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+.tag{
+    background-image: url('../images/featured-bckg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 57px;
+    position: relative;
+    right: 140px;
+    bottom: 20px;
+    width: 60%;
+}
+.tag span{
+    position: relative;
+    left: 60px;    
+    display: block;
+    transform: rotate(-7deg);
+}
+
 
 
 
@@ -82,3 +124,6 @@ body {
     
 }
 
+@media (max-width: 767px) {
+
+}
