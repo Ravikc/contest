@@ -74,7 +74,7 @@ body {
     color: black;
 }
 
-section{
+#section1{
     background-color: beige;       
 }
 
@@ -148,9 +148,87 @@ section .highlight a button{
 section hr {
     border-top: 1px dashed brown;
 }
+#section2 > div > img{
+    min-height: 30px;
+    margin-top: 0.5%;
+}
 
-#events > div > div{
-    background-color: skyblue;
+
+#section2 .btn {
+    border-radius: 0px;
+    background-color: green;
+    color: white;
+}
+#clubs img{
+    margin-bottom: 10%;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+#clubs span:hover {
+    opacity: 1;    
+}
+
+#section2{
+    background-image: url("../images/happening-bckg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+#section2 h3{
+    color: #5c6444;
+    font-weight: bolder;
+}
+#section2 h4, #section2 a{
+    color: green;
+}
+#section2 > div > div > div > div:first-child > a, #section2 > div > div > div > div:nth-child(2) > a{
+    text-decoration: underline;
+}
+.time{
+    font-weight: bolder;
+}
+#row-for-buttons{
+    margin-bottom: 3%;
+}
+#clubs > div > div:last-child{
+    margin-bottom: 3%;
+}
+
+footer{
+    background-color: #333;
+    color: #bac38f;
+    
+}
+
+footer hr{
+    border-top: 1px dashed white;
+}
+.map{
+    width: 100%;
+    height: 50%;
+}
+footer .links > a > i{
+    padding: 2%;
+    color: white;
+    font-size: 1.2em;
+}
+footer ul a{    
+   color: #bac38f;
+}
+footer ul li{
+    list-style: none;
+    padding-top: 2%;
+   
+}
+footer ul{
+    padding-left: 0;
+}
+
+.copyright{
+    color: white;
 }
 
 
@@ -159,7 +237,70 @@ section hr {
 
 
 
+@media (max-width: 767px) {                         /*Mobiles*/
+    #carousel-example-generic img{
+        min-height: 350px;
+    }
 
+    .tag{
+        width: 100%;
+    } 
+
+    span.text-content {
+        line-height: 1.2em;
+        font-size: 1.5em;        
+        color: white;
+        cursor: pointer;
+        display: table;
+        border-radius: 100%;
+        left: 28px;
+        position: absolute;
+        top:7%;
+        opacity: 0;  
+        width: 120px;
+        height: 120px;
+        border: 3px solid white;
+    }   
+}
+
+@media (min-width: 768px) and (max-width: 991px){           /*small devices*/
+    span.text-content {
+        line-height: 1.2em;
+        font-size: 2em;        
+        color: white;
+        cursor: pointer;
+        display: table;
+        border-radius: 100%;
+        left: 20px;
+        position: absolute;
+        top:3.5%;
+        opacity: 0;  
+        width: 140px;
+        height: 140px;
+        border: 3px solid white;
+    }   
+}
+
+@media (min-width: 992px) and (max-width: 1199px){           /*medium devices*/
+    span.text-content {
+        line-height: 1.2em;
+        font-size: 1.2em;
+        
+        color: white;
+        cursor: pointer;
+        display: table;
+        border-radius: 100%;
+        left: 18px;
+        position: absolute;
+        top:24%;
+        opacity: 0;  
+        width: 90px;
+        height: 90px;
+        border: 2px solid white;
+    }
+    
+
+}
 
 @media (min-width: 768px) and (max-width: 931px){               /*fixing navbar links collapsing*/
 
@@ -181,4 +322,10 @@ section hr {
     }
 
     
+}
+
+@media (min-width: 992px){          /*align images foe medium and larger screens */
+    #clubs img{
+        margin: 40% auto 40% auto;
+    }
 }
