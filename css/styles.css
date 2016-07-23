@@ -230,6 +230,11 @@ footer ul{
 .copyright{
     color: white;
 }
+.highlight-button a{
+    margin-bottom: 2%;
+    border-radius: 0;
+    background-color: green;
+}
 
 
 
