@@ -1,5 +1,6 @@
 body { 
-   overflow-x: hidden;      /*to stop horizontal scroll*/   
+   overflow-x: hidden; 
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;     /*to stop horizontal scroll*/   
 }
 
 #top{
@@ -12,23 +13,22 @@ body {
 #navbar{      
     z-index: 1;
     background-color: gray;
-    opacity: 0.75; 
+    opacity: 0.8; 
     border-radius: 0px;  
     border: none; 
         
 }
 
 #top form > div{
+    margin-left: 3px;
     border: none;
     width: 75%;
     display: inline-block;
 }
 #top form > button{
     display: inline;
-    width: 20%;
-    margin: 0;
-    border: none;
-    
+    width: 20%;       
+    border: none;   
 }
 
 #navbar li a {
@@ -37,7 +37,8 @@ body {
 }
 
 #navbar li a:hover{
-    color: darkgreen;          
+    color: darkgreen;
+    font-weight: bolder;          
 }
 
 #navbar ul span{
@@ -52,7 +53,9 @@ body {
     width: 60px;
 }
 
-
+#carousel-example-generic ol li.active{
+    background-color: green;
+}
 
 #carousel-example-generic img{
    min-height: 460px;
@@ -103,6 +106,9 @@ body {
 .heading-outer{
     margin:1% auto 5% auto;
     font-size: 1.8em;      
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    color: #b27d43;    
 }
 
 .highlight{
@@ -129,6 +135,9 @@ body {
     left: 60px;      
     display: block;
     transform: rotate(-7deg);
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    color: white;
 }
 .heading-inner{
     font-size: 1.2em;
@@ -148,6 +157,12 @@ section .highlight a button{
     top: 0px;
     left: 0px;
     right: 0px;     
+}
+.tag-small > p{
+    margin-top: 5px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: bolder;
 }
 #menu > div > div:nth-child(3){
     background-color: white;
@@ -221,7 +236,7 @@ span.text-content span {
 
 footer{
     background-color: #333;
-    color: #bac38f;
+    color: white;
     
 }
 
@@ -238,7 +253,10 @@ footer .links > a > i{
     font-size: 1.2em;
 }
 footer ul a{    
-   color: #bac38f;
+   color: white;
+}
+footer h4{
+    color: #bac38f;
 }
 footer ul li{
     list-style: none;
@@ -262,7 +280,12 @@ footer ul{
     border-radius: 0;
     background-color: green;
 }
-
+#navbar .navbar-header button{
+    border: none;
+}
+#navbar .navbar-header span{    
+    background-color: white;
+}
 
 
 
@@ -340,6 +363,9 @@ footer ul{
         padding-left: 7.4px;
         padding-right: 7.4px;
         font-size: 0.8em;
+    }
+    #navbar ul span{
+        margin-top: 3.5%;
     }
     
 }
