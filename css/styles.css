@@ -18,7 +18,18 @@ body {
         
 }
 
-
+#top form > div{
+    border: none;
+    width: 75%;
+    display: inline-block;
+}
+#top form > button{
+    display: inline;
+    width: 20%;
+    margin: 0;
+    border: none;
+    
+}
 
 #navbar li a {
     color: white;   
@@ -26,9 +37,7 @@ body {
 }
 
 #navbar li a:hover{
-    color: darkgreen;   
-    
-        
+    color: darkgreen;          
 }
 
 #navbar ul span{
