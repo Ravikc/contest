@@ -30,6 +30,9 @@ body {
     width: 20%;       
     border: none;   
 }
+#top form{
+    border: none;
+}
 
 #navbar li a {
     color: white;   
