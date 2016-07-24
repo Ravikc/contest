@@ -28,7 +28,9 @@ body {
 #top form > button{
     display: inline;
     width: 20%;       
-    border: none;   
+    border: none; 
+    position: relative;
+    top: -2px;  
 }
 #top form{
     border: none;
@@ -249,6 +251,7 @@ footer hr{
 .map{
     width: 100%;
     height: 50%;
+    max-height: 150px;
 }
 footer .links > a > i{
     padding: 2%;
