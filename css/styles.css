@@ -24,14 +24,20 @@ body {
     width: 75%;
     display: block;
     float: left;
+    
 }
 #top form > button{    
     margin-left:1%;
     clear: left;
     width: 20%;       
     border: none; 
-    
-    
+    background-color: green;
+    color: white;
+    border-radius: 0;         
+}
+
+#top form > div > input{
+    border-radius: 0;
 }
 #top form{
     border: none;
@@ -148,12 +154,6 @@ body {
 .heading-inner{
     font-size: 1.2em;
 }
-section .highlight a button{
-    border-radius: 0;
-    margin-bottom: 10px;
-
-}
-
 .tag-small{   
     background-image: url('../images/thumbnail-bg-title.png');
     background-repeat: no-repeat;
