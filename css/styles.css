@@ -19,17 +19,19 @@ body {
 }
 
 #top form > div{
-    margin-left: 3px;
+   margin-left:1%;
     border: none;
     width: 75%;
-    display: inline-block;
+    display: block;
+    float: left;
 }
-#top form > button{
-    display: inline;
+#top form > button{    
+    margin-left:1%;
+    clear: left;
     width: 20%;       
     border: none; 
-    position: relative;
-    top: -2px;  
+    
+    
 }
 #top form{
     border: none;
