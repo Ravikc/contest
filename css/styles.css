@@ -300,6 +300,9 @@ footer ul{
 
 
 
+
+
+
 @media (max-width: 767px) {                         /*Mobiles*/
     #carousel-example-generic img{
         min-height: 350px;
@@ -394,4 +397,25 @@ footer ul{
     #clubs img{
         margin: 40% auto 40% auto;
     }
+}
+
+@media (min-width: 1200px){           /*large devices*/
+    span.text-content {
+        line-height: 1.2em;
+        font-size: 1.2em;
+        
+        color: white;
+        cursor: pointer;
+        display: table;
+        border-radius: 100%;
+        left: 29px;
+        position: absolute;
+        top:28%;
+        opacity: 0;  
+        width: 100px;
+        height: 100px;
+        border: 2px solid white;
+    }
+    
+
 }
